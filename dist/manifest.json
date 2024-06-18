@@ -1,6 +1,6 @@
 {
   "name": "Script extension",
-  "author": "Ahmad Kholid",
+  "author": "kholid060",
   "version": "0.0.0",
   "description": "script extension example",
   "title": "Clipboard",
@@ -11,6 +11,7 @@
       "icon": "icon:Terminal",
       "name": "bash.sh",
       "title": "Bash script",
+	  "type": "script",
       "arguments": [
         {
           "name": "text",
@@ -42,6 +43,7 @@
     {
       "name": "python.py",
       "title": "Python script",
+	  "type": "script",
       "arguments": [
         {
           "name": "password",
@@ -53,6 +55,7 @@
     {
       "name": "javascript.js",
       "title": "JS script",
+	  "type": "script",
       "arguments": [
         {
           "name": "password",
